@@ -45,6 +45,7 @@ nvidia-smi
 3. Install CUDA Toolkit 12.06
 
 https://developer.nvidia.com/cuda-downloads
+https://developer.nvidia.com/cuda-12-6-3-download-archive
 
 ```bash
 Linux → x86_64 → Ubuntu → 24.04 → deb (local)
