@@ -1,0 +1,11 @@
+# requirements.txt — GPU Validation Toolkit
+# Python packages only (system must already have CUDA 12.6 and cuDNN)
+# Or CUDA or cuDNN are system-level and not handled by `pip`
+# Usage:pip install -r requirements.txt
+
+torch==2.5.0+cu126 --index-url https://download.pytorch.org/whl/cu126
+torchvision==0.20.0+cu126 --index-url https://download.pytorch.org/whl/cu126
+torchaudio==2.5.0+cu126 --index-url https://download.pytorch.org/whl/cu126
+tensorflow==2.17.0
+numpy
+
